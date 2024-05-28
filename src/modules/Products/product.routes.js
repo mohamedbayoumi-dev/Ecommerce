@@ -1,5 +1,5 @@
 
-import { validationFunction } from '../../../src/middlewares/validation.js';
+import { validationFunction } from '../../middlewares/validation.js';
 import { allowedExtensions } from '../../utils/allowedExtensions.js';
 import { multerFunction } from '../../services/multerCloudinary.js';
 import * as validators from '../Products/product.validationSchemas.js'
