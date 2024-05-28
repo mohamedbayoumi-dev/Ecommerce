@@ -1,8 +1,8 @@
 
+import { validationFunction } from '../../../src/middlewares/validation.js';
 import { allowedExtensions } from '../../utils/allowedExtensions.js';
 import { multerFunction } from '../../services/multerCloudinary.js';
 import { asyncHandler } from '../../utils/errorHandling.js'
-import { validationFunction } from '../../middlewares/validation.js';
 import * as validators from './product.validationSchemas.js'
 import { productApisRoles } from './product.endPoints.js';
 import { isAuth } from '../../middlewares/auth.js';
