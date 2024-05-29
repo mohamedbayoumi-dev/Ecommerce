@@ -1,6 +1,6 @@
 
 
-import { generalFields } from '../../Middlewares/validation.js'
+import { generalFields } from '../../middlewares/validation.js'
 import Joi from 'joi'
 
 export const addProductSchema = {
